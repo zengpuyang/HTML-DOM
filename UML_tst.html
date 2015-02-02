@@ -3,57 +3,56 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>HTML & DOM</title>
-    <style>
-        h1{
-            background-color: rgba(16, 12, 59, 0.85);
-            font-size: 26px;
-            text-align: center;
-
-        }
-    </style>
+    <script type="text/javascript">
+        /*window.onload=function(){
+            alert('要认真做题哦!')
+        };*/
+    </script>
+    <script src="calculate.js"></script>
 </head>
 <body>
 西安软件服务外包学院<hr>
-<h1>统一建模语言理论测试</h1><br>
-考试科目:&nbsp;<b>统一建模语言UML</b>&nbsp;&nbsp;   时间:&nbsp;  100 分钟&nbsp;&nbsp;   得分:     <br>
-<form>
-班级:<input type="text" name="class" required="class">  学号:<input type="text" name="number" required="number">   姓名:<input type="text" name="name" required="name"><br><br>
-一 、    <b>填空题</b><br>
-1. UML 的中文全称是:<input type="text" name="1.1"><br>
-2. 对象最突出的特征是:<input type="text" name="1.2.1">、<input type="text" name="1.2.2">、<input type="text" name="1.2.3"><br>
-二 、    <b>选择题</b>
-1.UML 与软件工程的关系是:<br>
-    <input type="radio" name="2.1" value="1">(A)UML 就是软件工程<br>
-    <input type="radio" name="2.1" value="2">(B)UML 参与到软件工程中软件开发过程的几个阶段<br>
-    <input type="radio" name="2.1" value="3">(C)UML 与软件工程无关<br>
-    <input type="radio" name="2.1" value="4">(D)UML 是软件工程的一部分<br>
-2.Java 语言支持:<br>
-    <input type="radio" name="2.2" value="1">(A)单继承<br>
-    <input type="radio" name="2.2" value="2">(B)多继承<br>
-    <input type="radio" name="2.2" value="3">(C)单继承和多继承都支持<br>
-    <input type="radio" name="2.2" value="4">(D)单继承和多继承都不支持<br>
-三 、    <b>多选题</b><br>
-1. 用例的粒度分为以下哪三种。<br>
-    <input type="checkbox" name="3.1" value="1">(A)概述级、<br>
-    <input type="checkbox" name="3.1" value="2">(B)需求级<br>
-    <input type="checkbox" name="3.1" value="3">(C)用户目标级、<br>
-    <input type="checkbox" name="3.1" value="4">(D)子功能级<br>
-2. 类图由以下哪三部分组成。<br>
-    <input type="checkbox" name="3.2" value="1">(A)名称(Name)<br>
-    <input type="checkbox" name="3.2" value="2">(B)属性(Attribute)<br>
-    <input type="checkbox" name="3.2" value="3">(C)操作(Operation)<br>
-    <input type="checkbox" name="3.2" value="4">(D)方法(Function)<br>
-四 、  <b>判断题</b><br>
-1. 用例图只是用于和客户交流和沟通的,用于确定需求。<input type="radio" name="4.1" value="1">正确<input type="radio" name="4.1" value="2">错误<br>
-2. 在状态图中,终止状态在一个状态图中允许有任意多个。<input type="radio" name="4.2" value="1">正确<input type="radio" name="4.2" value="2">错误<br>
-五 、  <b>简答题(每题4分,共20分)</b><br>
-1. 简述什么是模型以及模型的表现形式?<br>
-<textarea name="5" cols="15" rows="5"></textarea><br>
-    <input type="submit" name="score1" value="提交">
+<h1 style="background-color: rgb(158, 72, 194);font-size: 26px;text-align: center">统一建模语言理论测试</h1><br>
+考试科目:&nbsp;<b><u>统一建模语言UML</u></b>&nbsp;&nbsp;&nbsp; 时间:&nbsp; <u>100 分钟</u>&nbsp;&nbsp;&nbsp; 得分:<b><u id="score"></u></b><br>
+<br><form>
+    班级:<input type="text" name="class" required="class" value="1">
+    学号:<input type="text" name="number" required="number" value="2">
+    姓名:<input type="text" name="name" required="name" value="3"><br><br>
+    一 、    <b>填空题</b><br>
+    1. UML 的中文全称是:<input type="text" name="1.1"><br>
+    2. 对象最突出的特征是:<input type="text" name="1.2.1">、<input type="text" name="1.2.2">、<input type="text" name="1.2.3"><br>
+    二 、    <b>选择题</b><br>
+    1.UML 与软件工程的关系是:&nbsp;&nbsp;<u id="2.1"></u><br>
+    <input type="radio" name="2.1"  onclick="radio_calculate(this.name,this.value)" value="A">(A)UML 就是软件工程<br>
+    <input type="radio" name="2.1"  onclick="radio_calculate(this.name,this.value)" value="B">(B)UML 参与到软件工程中软件开发过程的几个阶段<br>
+    <input type="radio" name="2.1"  onclick="radio_calculate(this.name,this.value)" value="C">(C)UML 与软件工程无关<br>
+    <input type="radio" name="2.1"  onclick="radio_calculate(this.name,this.value)" value="D">(D)UML 是软件工程的一部分<br>
+    2.Java 语言支持:&nbsp;&nbsp;<u id="2.2"></u><br>
+    <input type="radio" name="2.2" onclick="radio_calculate(this.name,this.value)" value="A">(A)单继承<br>
+    <input type="radio" name="2.2" onclick="radio_calculate(this.name,this.value)" value="B">(B)多继承<br>
+    <input type="radio" name="2.2" onclick="radio_calculate(this.name,this.value)" value="C">(C)单继承和多继承都支持<br>
+    <input type="radio" name="2.2" onclick="radio_calculate(this.name,this.value)" value="D">(D)单继承和多继承都不支持<br>
+    三 、    <b>多选题</b><br>
+    1. 用例的粒度分为以下哪三种。&nbsp;&nbsp;<u id="3.1"></u><br>
+    <input type="checkbox" name="3.1" onclick="checkbox_calculate(this.name,this.value)" value="A">(A)概述级、<br>
+    <input type="checkbox" name="3.1" onclick="checkbox_calculate(this.name,this.value)" value="B">(B)需求级<br>
+    <input type="checkbox" name="3.1" onclick="checkbox_calculate(this.name,this.value)" value="C">(C)用户目标级、<br>
+    <input type="checkbox" name="3.1" onclick="checkbox_calculate(this.name,this.value)" value="D">(D)子功能级<br>
+    2. 类图由以下哪三部分组成。&nbsp;&nbsp;<u id="3.2"></u><br>
+    <input type="checkbox" name="3.2" onclick="checkbox_calculate(this.name,this.value)" value="A">(A)名称(Name)<br>
+    <input type="checkbox" name="3.2" onclick="checkbox_calculate(this.name,this.value)" value="B">(B)属性(Attribute)<br>
+    <input type="checkbox" name="3.2" onclick="checkbox_calculate(this.name,this.value)" value="C">(C)操作(Operation)<br>
+    <input type="checkbox" name="3.2" onclick="checkbox_calculate(this.name,this.value)" value="D">(D)方法(Function)<br>
+    四 、  <b>判断题</b><br>
+    1. 用例图只是用于和客户交流和沟通的,用于确定需求。<input type="radio" name="4.1" value="1">正确<input type="radio" name="4.1" value="2">错误<br>
+    2. 在状态图中,终止状态在一个状态图中允许有任意多个。<input type="radio" name="4.2" value="1">正确<input type="radio" name="4.2" value="2">错误<br>
+    五 、  <b>简答题(每题4分,共20分)</b><br>
+    1. 简述什么是模型以及模型的表现形式?<br>
+    <textarea name="5.1" cols="50" rows="5"></textarea><br>
+    <input type="button" name="score1" value="提交" onclick="calculate()">
     <input type="reset" name="reset1" value="重置">
 </form>
-1/1<br>
-
+<p style="text-align: center">1/1<br>
 
 </body>
 </html>
