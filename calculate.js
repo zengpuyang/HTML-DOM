@@ -11,6 +11,6 @@ function checkbox_calculate(name) {
     }
     document.getElementById(name).innerText=value
 }
-function calculate() {
+function judge_calculate() {
 
 }
