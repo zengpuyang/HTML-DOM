@@ -8,15 +8,23 @@ function get_radio_answer_calculate(name) {
     }
     return value
 }
-function save_answer_calculate(name,value) {
+function gap_answer_calculate() {
+    var scores=[];
+    var gap_question=question_types().gap_filling;
 
-}
-function judge_calculate() {
-    var model_answer=answers(),total_score= 0;
-    for(var qid= 0;qid<model_answer.length;qid++){
+    for(var number=0;number<gap_question.length;number++){
+        var model_answer=gap_question[number][1],qid=gap_question[number][0];
+        var answer=document.getElementById(qid).value,score=gap_question[number][2];
+        if(model_answer==answer){
+            scores[scores.length]=[qid,score]
+        }
+
     }
+    return scores
+}
+function calculate() {
 
-
+    console.log(gap_answer_calculate());
 
 
 
