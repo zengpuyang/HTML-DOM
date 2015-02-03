@@ -44,8 +44,8 @@
       <file leaf-file-name="calculate.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6372093" vertical-offset="57" max-vertical-offset="702">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.19069767" vertical-offset="57" max-vertical-offset="702">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -334,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6372093" vertical-offset="57" max-vertical-offset="702">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.19069767" vertical-offset="57" max-vertical-offset="702">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>
