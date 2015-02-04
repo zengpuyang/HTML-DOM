@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
+    <meta charset="gb2312">
     <title>HTML & DOM</title>
     <script type="text/javascript">
         /*window.onload=function(){
-            alert('è¦è®¤çœŸåšé¢˜å“¦!')
+            alert('ÒªÈÏÕæ×öÌâÅ¶!')
         };*/
     </script>
     <script src="calculate.js"></script>
     <script src="model_answers.js"></script>
 </head>
 <body>
-è¥¿å®‰è½¯ä»¶æœåŠ¡å¤–åŒ…å­¦é™¢<hr>
-<h1 style="background-color: rgb(158, 72, 194);font-size: 26px;text-align: center">ç»Ÿä¸€å»ºæ¨¡è¯­è¨€ç†è®ºæµ‹è¯•</h1><br>
-è€ƒè¯•ç§‘ç›®:&nbsp;<b><u>ç»Ÿä¸€å»ºæ¨¡è¯­è¨€UML</u></b>&nbsp;&nbsp;&nbsp; æ—¶é—´:&nbsp; <u>100 åˆ†é’Ÿ</u>&nbsp;&nbsp;&nbsp;
-æ€»åˆ†:&nbsp; <u>50 åˆ†</u>&nbsp;&nbsp;&nbsp; å¾—åˆ†:<b><u id="score" style="font-size: 40px"></u></b><br>
+Î÷°²Èí¼þ·þÎñÍâ°üÑ§Ôº<hr>
+<h1 style="background-color: rgb(158, 72, 194);font-size: 26px;text-align: center">Í³Ò»½¨Ä£ÓïÑÔÀíÂÛ²âÊÔ</h1><br>
+¿¼ÊÔ¿ÆÄ¿:&nbsp;<b><u>Í³Ò»½¨Ä£ÓïÑÔUML</u></b>&nbsp;&nbsp;&nbsp; Ê±¼ä:&nbsp; <u>100 ·ÖÖÓ</u>&nbsp;&nbsp;&nbsp;
+×Ü·Ö:&nbsp; <u>50 ·Ö</u>&nbsp;&nbsp;&nbsp; µÃ·Ö:<b><u id="score" style="font-size: 40px"></u></b><br>
 <br><form>
-    ç­çº§:<input type="text" name="class" required="class" value="1">
-    å­¦å·:<input type="text" name="number" required="number" value="2">
-    å§“å:<input type="text" name="name" required="name" value="3"><br><br>
-    ä¸€ ã€    <b>å¡«ç©ºé¢˜</b>(æ¯ç©º2åˆ†,å…±8åˆ†)<br>
-    1. UML çš„ä¸­æ–‡å…¨ç§°æ˜¯:<input type="text" id="1.1" maxlength="6"><br>
-    2. å¯¹è±¡æœ€çªå‡ºçš„ç‰¹å¾æ˜¯:<input type="text" id="1.2.1" maxlength="3">ã€<input type="text" id="1.2.2" maxlength="3">ã€<input type="text" id="1.2.3" maxlength="3"><br>
-    äºŒ ã€    <b>é€‰æ‹©é¢˜</b>(æ¯é¢˜4åˆ†,å…±8åˆ†)<br>
-    1.UML ä¸Žè½¯ä»¶å·¥ç¨‹çš„å…³ç³»æ˜¯:<br>
-    <input type="radio" name="2.1" value="A">(A)UML å°±æ˜¯è½¯ä»¶å·¥ç¨‹<br>
-    <input type="radio" name="2.1" value="B">(B)UML å‚ä¸Žåˆ°è½¯ä»¶å·¥ç¨‹ä¸­è½¯ä»¶å¼€å‘è¿‡ç¨‹çš„å‡ ä¸ªé˜¶æ®µ<br>
-    <input type="radio" name="2.1" value="C">(C)UML ä¸Žè½¯ä»¶å·¥ç¨‹æ— å…³<br>
-    <input type="radio" name="2.1" value="D">(D)UML æ˜¯è½¯ä»¶å·¥ç¨‹çš„ä¸€éƒ¨åˆ†<br>
-    2.Java è¯­è¨€æ”¯æŒ:<br>
-    <input type="radio" name="2.2" value="A">(A)å•ç»§æ‰¿<br>
-    <input type="radio" name="2.2" value="B">(B)å¤šç»§æ‰¿<br>
-    <input type="radio" name="2.2" value="C">(C)å•ç»§æ‰¿å’Œå¤šç»§æ‰¿éƒ½æ”¯æŒ<br>
-    <input type="radio" name="2.2" value="D">(D)å•ç»§æ‰¿å’Œå¤šç»§æ‰¿éƒ½ä¸æ”¯æŒ<br>
-    ä¸‰ ã€    <b>å¤šé€‰é¢˜</b>(æ¯é¢˜6åˆ†,å…±12åˆ†)<br>
-    1. ç”¨ä¾‹çš„ç²’åº¦åˆ†ä¸ºä»¥ä¸‹å“ªä¸‰ç§ã€‚<br>
-    <input type="checkbox" name="3.1" value="A">(A)æ¦‚è¿°çº§ã€<br>
-    <input type="checkbox" name="3.1" value="B">(B)éœ€æ±‚çº§<br>
-    <input type="checkbox" name="3.1" value="C">(C)ç”¨æˆ·ç›®æ ‡çº§ã€<br>
-    <input type="checkbox" name="3.1" value="D">(D)å­åŠŸèƒ½çº§<br>
-    2. ç±»å›¾ç”±ä»¥ä¸‹å“ªä¸‰éƒ¨åˆ†ç»„æˆã€‚<br>
-    <input type="checkbox" name="3.2" value="A">(A)åç§°(Name)<br>
-    <input type="checkbox" name="3.2" value="B">(B)å±žæ€§(Attribute)<br>
-    <input type="checkbox" name="3.2" value="C">(C)æ“ä½œ(Operation)<br>
-    <input type="checkbox" name="3.2" value="D">(D)æ–¹æ³•(Function)<br>
-    å›› ã€  <b>åˆ¤æ–­é¢˜</b>(æ¯é¢˜6åˆ†,å…±12åˆ†)<br>
-    1. ç”¨ä¾‹å›¾åªæ˜¯ç”¨äºŽå’Œå®¢æˆ·äº¤æµå’Œæ²Ÿé€šçš„,ç”¨äºŽç¡®å®šéœ€æ±‚ã€‚
+    °à¼¶:<input type="text" name="class" required="class" value="1">
+    Ñ§ºÅ:<input type="text" name="number" required="number" value="2">
+    ÐÕÃû:<input type="text" name="name" required="name" value="3"><br><br>
+    Ò» ¡¢    <b>Ìî¿ÕÌâ</b>(Ã¿¿Õ2·Ö,¹²8·Ö)<br>
+    1. UML µÄÖÐÎÄÈ«³ÆÊÇ:<input type="text" id="1.1" maxlength="6"><br>
+    2. ¶ÔÏó×îÍ»³öµÄÌØÕ÷ÊÇ:<input type="text" id="1.2.1" maxlength="3">¡¢<input type="text" id="1.2.2" maxlength="3">¡¢<input type="text" id="1.2.3" maxlength="3"><br>
+    ¶þ ¡¢    <b>Ñ¡ÔñÌâ</b>(Ã¿Ìâ4·Ö,¹²8·Ö)<br>
+    1.UML ÓëÈí¼þ¹¤³ÌµÄ¹ØÏµÊÇ:<br>
+    <input type="radio" name="2.1" value="A">(A)UML ¾ÍÊÇÈí¼þ¹¤³Ì<br>
+    <input type="radio" name="2.1" value="B">(B)UML ²ÎÓëµ½Èí¼þ¹¤³ÌÖÐÈí¼þ¿ª·¢¹ý³ÌµÄ¼¸¸ö½×¶Î<br>
+    <input type="radio" name="2.1" value="C">(C)UML ÓëÈí¼þ¹¤³ÌÎÞ¹Ø<br>
+    <input type="radio" name="2.1" value="D">(D)UML ÊÇÈí¼þ¹¤³ÌµÄÒ»²¿·Ö<br>
+    2.Java ÓïÑÔÖ§³Ö:<br>
+    <input type="radio" name="2.2" value="A">(A)µ¥¼Ì³Ð<br>
+    <input type="radio" name="2.2" value="B">(B)¶à¼Ì³Ð<br>
+    <input type="radio" name="2.2" value="C">(C)µ¥¼Ì³ÐºÍ¶à¼Ì³Ð¶¼Ö§³Ö<br>
+    <input type="radio" name="2.2" value="D">(D)µ¥¼Ì³ÐºÍ¶à¼Ì³Ð¶¼²»Ö§³Ö<br>
+    Èý ¡¢    <b>¶àÑ¡Ìâ</b>(Ã¿Ìâ6·Ö,¹²12·Ö)<br>
+    1. ÓÃÀýµÄÁ£¶È·ÖÎªÒÔÏÂÄÄÈýÖÖ¡£<br>
+    <input type="checkbox" name="3.1" value="A">(A)¸ÅÊö¼¶¡¢<br>
+    <input type="checkbox" name="3.1" value="B">(B)ÐèÇó¼¶<br>
+    <input type="checkbox" name="3.1" value="C">(C)ÓÃ»§Ä¿±ê¼¶¡¢<br>
+    <input type="checkbox" name="3.1" value="D">(D)×Ó¹¦ÄÜ¼¶<br>
+    2. ÀàÍ¼ÓÉÒÔÏÂÄÄÈý²¿·Ö×é³É¡£<br>
+    <input type="checkbox" name="3.2" value="A">(A)Ãû³Æ(Name)<br>
+    <input type="checkbox" name="3.2" value="B">(B)ÊôÐÔ(Attribute)<br>
+    <input type="checkbox" name="3.2" value="C">(C)²Ù×÷(Operation)<br>
+    <input type="checkbox" name="3.2" value="D">(D)·½·¨(Function)<br>
+    ËÄ ¡¢  <b>ÅÐ¶ÏÌâ</b>(Ã¿Ìâ6·Ö,¹²12·Ö)<br>
+    1. ÓÃÀýÍ¼Ö»ÊÇÓÃÓÚºÍ¿Í»§½»Á÷ºÍ¹µÍ¨µÄ,ÓÃÓÚÈ·¶¨ÐèÇó¡£
     X<input type="radio" name="4.1" value="X">V<input type="radio" name="4.1" value="V"><br>
-    2. åœ¨çŠ¶æ€å›¾ä¸­,ç»ˆæ­¢çŠ¶æ€åœ¨ä¸€ä¸ªçŠ¶æ€å›¾ä¸­å…è®¸æœ‰ä»»æ„å¤šä¸ªã€‚
+    2. ÔÚ×´Ì¬Í¼ÖÐ,ÖÕÖ¹×´Ì¬ÔÚÒ»¸ö×´Ì¬Í¼ÖÐÔÊÐíÓÐÈÎÒâ¶à¸ö¡£
     X<input type="radio" name="4.2" value="X">V<input type="radio" name="4.2" value="V"><br>
-    äº” ã€  <b>ç®€ç­”é¢˜</b>(æœ¬é¢˜10åˆ†)<br>
-    1. ç®€è¿°ä»€ä¹ˆæ˜¯æ¨¡åž‹ä»¥åŠæ¨¡åž‹çš„è¡¨çŽ°å½¢å¼?<br>
+    Îå ¡¢  <b>¼ò´ðÌâ</b>(±¾Ìâ10·Ö)<br>
+    1. ¼òÊöÊ²Ã´ÊÇÄ£ÐÍÒÔ¼°Ä£ÐÍµÄ±íÏÖÐÎÊ½?<br>
     <textarea id="5.1" cols="50" rows="5"></textarea><br>
-    <input type="button" name="score1" value="æäº¤" onclick="calculate()">
-    <input type="reset" name="reset1" value="é‡ç½®">
+    <input type="button" name="score1" value="Ìá½»" onclick="calculate()">
+    <input type="reset" name="reset1" value="ÖØÖÃ">
 </form>
 <p style="text-align: center">1/1<br>
 
