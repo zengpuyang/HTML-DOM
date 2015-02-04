@@ -39,15 +39,21 @@ function choice_calculate() {
         if(model_answer==answer){
             scores[scores.length]=[qid,score]
         }
-        console.log(answer)
     }
     return scores
 }
+function sub_score_calculate(score_array) {
+    var sub=0;
+    for(var list=0;list<score_array.length;list++){
+        sub+=score_array[list][1]
+    }
+    return sub
+}
 function calculate() {
-    gap_answer_calculate();
-    choice_calculate();
-
-
+    var gap_scores=sub_score_calculate(gap_answer_calculate());
+    var choice_scores=sub_score_calculate(choice_calculate());
+    var total=gap_scores+choice_scores;
+    document.getElementsByName('score')[0].disabled=true;
     document.getElementsByName('class')[0].focus();
-    document.getElementById('score').innerText='分'
+    document.getElementById('score').innerText=total+'分'
 }

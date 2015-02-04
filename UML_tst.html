@@ -4,9 +4,9 @@
     <meta charset="gb2312">
     <title>HTML & DOM</title>
     <script type="text/javascript">
-        /*window.onload=function(){
+        window.onload=function(){
             alert('要认真做题哦!')
-        };*/
+        };
     </script>
     <script src="calculate.js"></script>
     <script src="model_answers.js"></script>
@@ -15,11 +15,11 @@
 西安软件服务外包学院<hr>
 <h1 style="background-color: rgb(158, 72, 194);font-size: 26px;text-align: center">统一建模语言理论测试</h1><br>
 考试科目:&nbsp;<b><u>统一建模语言UML</u></b>&nbsp;&nbsp;&nbsp; 时间:&nbsp; <u>100 分钟</u>&nbsp;&nbsp;&nbsp;
-总分:&nbsp; <u>50 分</u>&nbsp;&nbsp;&nbsp; 得分:<b><u id="score" style="font-size: 40px"></u></b><br>
+总分:&nbsp; <u>50 分</u>&nbsp;&nbsp;&nbsp; 得分:<b><u id="score" style="font-size: 40px;color: red"></u></b><br>
 <br><form>
-    班级:<input type="text" name="class" required="class" value="1">
-    学号:<input type="text" name="number" required="number" value="2">
-    姓名:<input type="text" name="name" required="name" value="3"><br><br>
+    班级:<input type="text" name="class" required="class">
+    学号:<input type="text" name="number" required="number">
+    姓名:<input type="text" name="name" required="name"><br><br>
     一 、    <b>填空题</b>(每空2分,共8分)<br>
     1. UML 的中文全称是:<input type="text" id="1.1" maxlength="6"><br>
     2. 对象最突出的特征是:<input type="text" id="1.2.1" maxlength="3">、<input type="text" id="1.2.2" maxlength="3">、<input type="text" id="1.2.3" maxlength="3"><br>
@@ -53,8 +53,8 @@
     五 、  <b>简答题</b>(本题10分)<br>
     1. 简述什么是模型以及模型的表现形式?<br>
     <textarea id="5.1" cols="50" rows="5"></textarea><br>
-    <input type="button" name="score1" value="提交" onclick="calculate()">
-    <input type="reset" name="reset1" value="重置">
+    <input type="button" name="score" value="提交" onclick="calculate()">
+    <input type="reset" name="reset" value="重置">
 </form>
 <p style="text-align: center">1/1<br>
 

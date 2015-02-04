@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91a3977-9c34-4035-9c4b-81e203e5d750" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UML_tst.html" afterPath="$PROJECT_DIR$/UML_tst.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculate.js" afterPath="$PROJECT_DIR$/calculate.js" />
     </list>
     <ignored path="HTML &amp; DOM.iws" />
@@ -28,28 +29,30 @@
       <file leaf-file-name="UML_tst.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UML_tst.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.666667" vertical-offset="432" max-vertical-offset="1206">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="162" max-vertical-offset="1206">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculate.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="calculate.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24651162" vertical-offset="417" max-vertical-offset="1062">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1170">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model_answers.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="model_answers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model_answers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="645">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -72,9 +75,9 @@
         <option value="$PROJECT_DIR$/score_calculate.js" />
         <option value="$PROJECT_DIR$/answer.js" />
         <option value="$PROJECT_DIR$/model_answer.js" />
-        <option value="$PROJECT_DIR$/UML_tst.html" />
-        <option value="$PROJECT_DIR$/calculate.js" />
         <option value="$PROJECT_DIR$/model_answers.js" />
+        <option value="$PROJECT_DIR$/calculate.js" />
+        <option value="$PROJECT_DIR$/UML_tst.html" />
       </list>
     </option>
   </component>
@@ -242,7 +245,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
           <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -266,7 +271,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -290,7 +297,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1206">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -306,7 +315,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="1206">
           <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -314,7 +325,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1152">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -325,26 +338,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1170">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UML_tst.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.666667" vertical-offset="432" max-vertical-offset="1206">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="-6.0" vertical-offset="162" max-vertical-offset="1206">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#u#0;n#b#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_answers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24651162" vertical-offset="417" max-vertical-offset="1062">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="645">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
